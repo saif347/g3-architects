@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    height: 850px;
+    background-color:rgba(229, 84, 115, 0.1);
+}
+.head{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.head-box{
+    width: 700px;
+}
+
+.h-title{
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 35px;
+}
+.text{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.primery-btn{
+    width: 150px;
+    background-color: #E55473;
+    color: #fff;
+    padding: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.h-img{
+    height: 850px;
+    padding-top: 50px;
+}
+/* main section */
+section{
+    margin-top: 150px;
+}
+.shop-description{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    
+}
+.sec-title{
+    font-size: 35px;
+    color: #272727;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.sec-paragraph{
+    line-height: 1.5;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.product-container{
+    width: 1400px;
+    height: 460px;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.flower-item{
+    width: 440px;
+    height: 430px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+    
+.product-item h5{
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+}
+/* services section */
+
+
+.service-sec{
+    width: 1300px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+}
+
+.div-col{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+.div-col .div-row h4{
+    color: rgba(39, 39, 39, 0.8);
+    margin-top: 15px;
+}
+
+.hot-sale-sec{
+    margin-top: 150px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 70px;
+}
+
+.offer-sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.offer-sec{
+    text-align: center;
+    width: 500px;
+}
+
+.offer-heading{
+    font-size: 35px;
+    color: #272727;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.offer-description{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.insta-col{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cta-sec{
+    width: 1400px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 10px 100px 10px;
+    background-image: url(./flower-shop-imgs/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form input{
+    color: rgba(39, 39, 39, 0.6);
+    padding: 18px;
+    width: 700px;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+/* footer */
+footer{
+    text-align: center;
+    height: 400px;
+    margin-top: 100px;
+    background-color: #111010;
+    color: #fff;
+}
+.footer-box{
+    margin: auto;
+    padding: 100px 0px;
+    
+}
+
+
+.foot-tile span{
+    color: #E55473;
+}
+
+.foot-text{
+    color: #FFFFFF;
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.4);
+
+}
